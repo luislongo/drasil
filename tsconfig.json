@@ -18,7 +18,10 @@
     "noImplicitAny": false,
     "outDir": "./dist",
     "declaration": true,
-    "declarationDir": "./dist"
+    "declarationDir": "./dist",
+    "paths": {
+      "*": ["*"]
+    }
   },
   "include": ["src"]
 }

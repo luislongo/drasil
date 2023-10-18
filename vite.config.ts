@@ -6,12 +6,11 @@ export default defineConfig(() => ({
   plugins: [react()],
   test: {
     environment: "jsdom",
-    setupFiles: ["./setupTests.ts"],
     testMatch: ["**/*.spec.ts?(x)"],
     globals: true,
     coverage: {
       provider: "v8",
-      reportsDirectory: "./coverage",
+      reportsDirectory: "../coverage",
       reporter: ["text", "html", "json", "json-summary"],
       exclude: [],
       lines: 80,
