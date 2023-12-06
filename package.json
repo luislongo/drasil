@@ -51,7 +51,7 @@
     "rollup-plugin-typescript": "^1.0.1",
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5",
+    "vite": "^4.4.12",
     "vitest": "^0.34.6"
   },
   "peerDependencies": {
